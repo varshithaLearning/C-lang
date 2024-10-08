@@ -1,5 +1,18 @@
-#include<stdio.h>
-int main(){
-float fh;
-printf("Enter the Fahrenheit tempreture");
-scanf("%fh
+include <stdio.h>
+
+int main() {
+    float fahrenheit, celsius;
+
+    // Convert Fahrenheit to Celsius
+    printf("Enter the Fahrenheit temperature: ");
+    scanf("%f", &fahrenheit);
+    celsius = 5.0 / 9.0 * (fahrenheit - 32);
+    printf("Celsius: %.2f\n", celsius);
+
+    // Convert Celsius to Fahrenheit
+    printf("Enter the Celsius temperature: ");
+    scanf("%f", &celsius);
+    fahrenheit = (celsius * 9.0 / 5.0) + 32; // Correct formula for conversion
+    printf("Fahrenheit: %.2f\n", fahrenheit);
+
+    return 0;
