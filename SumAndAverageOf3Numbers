@@ -18,3 +18,11 @@ int main() {
 
     return 0;
 }
+
+//output
+Enter 3 numbers - 
+7 8 9
+Sum = 24
+Average = 8.0
+
+=== Code Execution Successful ===
