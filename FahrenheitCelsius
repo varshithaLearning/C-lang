@@ -16,3 +16,10 @@ int main() {
     printf("Fahrenheit: %.2f\n", fahrenheit);
 
     return 0;
+}
+
+//output
+Enter the Fahrenheit temperature: 10
+Celsius: -12.22
+Enter the Celsius temperature: 10
+Fahrenheit: 50.00
